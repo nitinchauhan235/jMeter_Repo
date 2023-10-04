@@ -1,22 +1,566 @@
-2023-09-23 09:15:28,954 INFO o.a.j.u.JMeterUtils: Setting Locale to en_IN
-2023-09-23 09:15:29,051 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2023-09-23 09:15:29,052 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2023-09-23 09:15:29,093 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
-2023-09-23 09:15:29,093 INFO o.a.j.JMeter: Version 5.6.2
-2023-09-23 09:15:29,093 INFO o.a.j.JMeter: java.version=17.0.8
-2023-09-23 09:15:29,094 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2023-09-23 09:15:29,094 INFO o.a.j.JMeter: os.name=Windows 11
-2023-09-23 09:15:29,094 INFO o.a.j.JMeter: os.arch=amd64
-2023-09-23 09:15:29,094 INFO o.a.j.JMeter: os.version=10.0
-2023-09-23 09:15:29,094 INFO o.a.j.JMeter: file.encoding=Cp1252
-2023-09-23 09:15:29,095 INFO o.a.j.JMeter: java.awt.headless=null
-2023-09-23 09:15:29,095 INFO o.a.j.JMeter: Max memory     =4208984064
-2023-09-23 09:15:29,095 INFO o.a.j.JMeter: Available Processors =12
-2023-09-23 09:15:29,139 INFO o.a.j.JMeter: Default Locale=English (India)
-2023-09-23 09:15:29,140 INFO o.a.j.JMeter: JMeter  Locale=English (India)
-2023-09-23 09:15:29,140 INFO o.a.j.JMeter: JMeterHome=C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\apache-jmeter-5.6.2\apache-jmeter-5.6.2
-2023-09-23 09:15:29,140 INFO o.a.j.JMeter: user.dir  =C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
-2023-09-23 09:15:29,144 INFO o.a.j.JMeter: PWD       =C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
-2023-09-23 09:15:29,158 INFO o.a.j.JMeter: IP: 192.168.1.110 Name: LAPTOP-Q9245QS6 FullName: LAPTOP-Q9245QS6
-2023-09-23 09:15:29,210 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2023-09-23 09:15:29,925 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-09-30 11:49:49,583 INFO o.a.j.u.JMeterUtils: Setting Locale to en_IN
+2023-09-30 11:49:49,618 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-09-30 11:49:49,618 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: Version 5.6.2
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: java.version=17.0.8
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: os.name=Windows 11
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: os.arch=amd64
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: os.version=10.0
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: java.awt.headless=null
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: Max memory     =4208984064
+2023-09-30 11:49:49,631 INFO o.a.j.JMeter: Available Processors =12
+2023-09-30 11:49:49,646 INFO o.a.j.JMeter: Default Locale=English (India)
+2023-09-30 11:49:49,646 INFO o.a.j.JMeter: JMeter  Locale=English (India)
+2023-09-30 11:49:49,646 INFO o.a.j.JMeter: JMeterHome=C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2
+2023-09-30 11:49:49,646 INFO o.a.j.JMeter: user.dir  =C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
+2023-09-30 11:49:49,646 INFO o.a.j.JMeter: PWD       =C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
+2023-09-30 11:49:49,646 INFO o.a.j.JMeter: IP: 192.168.1.110 Name: LAPTOP-Q9245QS6 FullName: LAPTOP-Q9245QS6
+2023-09-30 11:49:49,662 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-09-30 11:49:49,862 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-09-30 11:49:50,941 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-30 11:49:51,022 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-30 11:49:51,036 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-30 11:49:51,139 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-30 11:49:51,140 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-30 11:49:51,140 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-30 11:49:51,215 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.9.jar and C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar
+2023-09-30 11:49:51,415 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-f0d4f3066e80a277b1fe78da8e6c6f38-gui
+2023-09-30 11:49:54,539 INFO o.j.r.PluginManager: Plugins Status: [jpgc-casutg=2.10, jpgc-plugins-manager=1.10, jmeter-core=5.6.2, jmeter-ftp=5.6.2, jmeter-http=5.6.2, jmeter-jdbc=5.6.2, jmeter-jms=5.6.2, jmeter-junit=5.6.2, jmeter-java=5.6.2, jmeter-ldap=5.6.2, jmeter-mail=5.6.2, jmeter-mongodb=5.6.2, jmeter-native=5.6.2, jmeter-tcp=5.6.2, jmeter-components=5.6.2]
+2023-10-01 14:45:37,407 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2023-10-01 14:45:37,410 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:09,807 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-10-01 14:47:09,807 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-10-01 14:47:09,959 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-01 14:47:09,964 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-01 14:47:09,964 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-01 14:47:10,074 WARN o.a.j.p.h.p.ProxyControl: Existing ROOT Certificate has expired, a new one will be created, ensure you install it in browser, message: NotAfter: Sat Sep 30 10:45:39 IST 2023
+java.security.cert.CertificateExpiredException: NotAfter: Sat Sep 30 10:45:39 IST 2023
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:277) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:627) ~[?:?]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1583) ~[ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) ~[ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) ~[ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) ~[ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) ~[ApacheJMeter_http.jar:5.6.2]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) ~[darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6391) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2023-10-01 14:47:10,074 INFO o.a.j.p.h.p.ProxyControl: Creating HTTP(S) Test Script Recorder Root CA in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks, ensure you install certificate in your Browser for recording
+2023-10-01 14:47:13,820 INFO o.a.j.p.h.p.ProxyControl: Created keystore in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:13,835 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2023-10-01 14:47:13,835 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2023-10-01 14:47:15,924 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-01 14:47:15,924 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-01 14:47:15,924 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-10-01 14:47:15,924 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2023-10-01 14:47:15,941 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-10-01 14:47:15,941 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-10-01 14:47:15,941 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-10-01 14:47:15,941 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-10-01 14:47:15,943 INFO o.a.j.p.h.p.ProxyControl: [56489]  Creating entry aus5.mozilla.org in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:18,855 INFO o.a.j.p.h.p.ProxyControl: [56493]  Creating entry location.services.mozilla.com in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:18,933 INFO o.a.j.p.h.p.Proxy: [56489]  KeyStore for SSL loaded OK and put host 'aus5.mozilla.org' in map with key (aus5.mozilla.org)
+2023-10-01 14:47:19,037 WARN o.a.j.p.h.p.Proxy: [56489]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:19,037 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-10-01 14:47:19,049 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-01 14:47:19,050 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-01 14:47:19,050 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-01 14:47:19,050 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-10-01 14:47:19,050 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-10-01 14:47:19,050 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-10-01 14:47:19,062 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-Q9245QS6
+2023-10-01 14:47:19,069 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-10-01 14:47:19,596 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-1 into controller 
+2023-10-01 14:47:19,707 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-3 into controller 
+2023-10-01 14:47:19,723 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-2 into controller 
+2023-10-01 14:47:21,813 INFO o.a.j.p.h.p.ProxyControl: [56490]  Creating entry normandy.cdn.mozilla.net in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:21,826 INFO o.a.j.p.h.p.Proxy: [56493]  KeyStore for SSL loaded OK and put host 'location.services.mozilla.com' in map with key (location.services.mozilla.com)
+2023-10-01 14:47:21,865 WARN o.a.j.p.h.p.Proxy: [56493]  Problem with SSL certificate for url  for 'location.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2023-10-01 14:47:24,405 INFO o.a.j.p.h.p.ProxyControl: [56492]  Creating entry firefox.settings.services.mozilla.com in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:24,444 INFO o.a.j.p.h.p.Proxy: [56490]  KeyStore for SSL loaded OK and put host 'normandy.cdn.mozilla.net' in map with key (normandy.cdn.mozilla.net)
+2023-10-01 14:47:24,575 WARN o.a.j.p.h.p.Proxy: [56490]  Problem with SSL certificate for url  for 'normandy.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:24,742 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-4 into controller 
+2023-10-01 14:47:24,742 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-5 into controller 
+2023-10-01 14:47:24,758 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-6 into controller 
+2023-10-01 14:47:27,235 INFO o.a.j.p.h.p.ProxyControl: [56491]  Creating entry services.addons.mozilla.org in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:27,262 INFO o.a.j.p.h.p.Proxy: [56492]  KeyStore for SSL loaded OK and put host 'firefox.settings.services.mozilla.com' in map with key (firefox.settings.services.mozilla.com)
+2023-10-01 14:47:27,314 WARN o.a.j.p.h.p.Proxy: [56492]  Problem with SSL certificate for url  for 'firefox.settings.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:27,410 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-7 into controller 
+2023-10-01 14:47:27,417 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-8 into controller 
+2023-10-01 14:47:27,426 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-9 into controller 
+2023-10-01 14:47:28,438 INFO o.a.j.p.h.p.ProxyControl: Add sample /-10 into controller 
+2023-10-01 14:47:28,453 WARN o.a.j.p.h.p.Proxy: [56527]  Problem with SSL certificate for url  for 'firefox.settings.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:28,485 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-11 into controller 
+2023-10-01 14:47:28,636 WARN o.a.j.p.h.p.Proxy: [56535]  Problem with SSL certificate for url  for 'firefox.settings.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:28,652 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-13 into controller 
+2023-10-01 14:47:28,659 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-12 into controller 
+2023-10-01 14:47:28,857 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-14 into controller 
+2023-10-01 14:47:28,857 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-15 into controller 
+2023-10-01 14:47:28,857 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-16 into controller 
+2023-10-01 14:47:30,013 INFO o.a.j.p.h.p.ProxyControl: [56534]  Creating entry content-signature-2.cdn.mozilla.net in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:30,052 INFO o.a.j.p.h.p.Proxy: [56491]  KeyStore for SSL loaded OK and put host 'services.addons.mozilla.org' in map with key (services.addons.mozilla.org)
+2023-10-01 14:47:30,115 WARN o.a.j.p.h.p.Proxy: [56491]  Problem with SSL certificate for url  for 'services.addons.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:30,282 WARN o.a.j.p.h.p.Proxy: [56542]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:30,282 WARN o.a.j.p.h.p.Proxy: [56543]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:30,282 WARN o.a.j.p.h.p.Proxy: [56544]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:30,298 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-17 into controller 
+2023-10-01 14:47:30,302 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-19 into controller 
+2023-10-01 14:47:30,306 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-18 into controller 
+2023-10-01 14:47:30,505 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-20 into controller 
+2023-10-01 14:47:30,510 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-22 into controller 
+2023-10-01 14:47:30,515 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-21 into controller 
+2023-10-01 14:47:30,709 INFO o.a.j.p.h.p.ProxyControl: Add sample /openh264-win64-2e1774ab6dc6c43debb0b5b628bdf122a391d521.zip-23 into controller 
+2023-10-01 14:47:32,693 INFO o.a.j.p.h.p.ProxyControl: [56508]  Creating entry img-getpocket.cdn.mozilla.net in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:32,713 INFO o.a.j.p.h.p.Proxy: [56534]  KeyStore for SSL loaded OK and put host 'content-signature-2.cdn.mozilla.net' in map with key (content-signature-2.cdn.mozilla.net)
+2023-10-01 14:47:32,792 WARN o.a.j.p.h.p.Proxy: [56534]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:32,792 WARN o.a.j.p.h.p.Proxy: [56511]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:32,875 WARN o.a.j.p.h.p.Proxy: [56563]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:32,947 WARN o.a.j.p.h.p.Proxy: [56571]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:32,963 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-24 into controller 
+2023-10-01 14:47:32,964 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-25 into controller 
+2023-10-01 14:47:32,964 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-26 into controller 
+2023-10-01 14:47:32,964 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-27 into controller 
+2023-10-01 14:47:32,981 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-28 into controller 
+2023-10-01 14:47:32,981 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-29 into controller 
+2023-10-01 14:47:32,981 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-30 into controller 
+2023-10-01 14:47:33,074 WARN o.a.j.p.h.p.Proxy: [56578]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,113 WARN o.a.j.p.h.p.Proxy: [56581]  Problem with SSL certificate for url  for 'firefox.settings.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,165 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-31 into controller 
+2023-10-01 14:47:33,166 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-32 into controller 
+2023-10-01 14:47:33,175 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-33 into controller 
+2023-10-01 14:47:33,175 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-35 into controller 
+2023-10-01 14:47:33,188 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-34 into controller 
+2023-10-01 14:47:33,198 WARN o.a.j.p.h.p.Proxy: [56586]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,340 WARN o.a.j.p.h.p.Proxy: [56594]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,372 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-36 into controller 
+2023-10-01 14:47:33,377 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-37 into controller 
+2023-10-01 14:47:33,382 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-38 into controller 
+2023-10-01 14:47:33,431 WARN o.a.j.p.h.p.Proxy: [56597]  Problem with SSL certificate for url  for 'firefox.settings.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,484 WARN o.a.j.p.h.p.Proxy: [56602]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,579 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-39 into controller 
+2023-10-01 14:47:33,579 WARN o.a.j.p.h.p.Proxy: [56609]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,584 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-41 into controller 
+2023-10-01 14:47:33,586 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-40 into controller 
+2023-10-01 14:47:33,594 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-42 into controller 
+2023-10-01 14:47:33,676 WARN o.a.j.p.h.p.Proxy: [56616]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,754 WARN o.a.j.p.h.p.Proxy: [56623]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,793 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-43 into controller 
+2023-10-01 14:47:33,797 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-44 into controller 
+2023-10-01 14:47:33,806 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-45 into controller 
+2023-10-01 14:47:33,811 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-47 into controller 
+2023-10-01 14:47:33,817 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-46 into controller 
+2023-10-01 14:47:33,823 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-48 into controller 
+2023-10-01 14:47:33,826 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-50 into controller 
+2023-10-01 14:47:33,830 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-49 into controller 
+2023-10-01 14:47:33,833 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-51 into controller 
+2023-10-01 14:47:33,848 WARN o.a.j.p.h.p.Proxy: [56628]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:33,943 WARN o.a.j.p.h.p.Proxy: [56637]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,007 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-52 into controller 
+2023-10-01 14:47:34,013 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-53 into controller 
+2023-10-01 14:47:34,019 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-54 into controller 
+2023-10-01 14:47:34,025 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-56 into controller 
+2023-10-01 14:47:34,030 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-55 into controller 
+2023-10-01 14:47:34,034 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-57 into controller 
+2023-10-01 14:47:34,041 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-58 into controller 
+2023-10-01 14:47:34,049 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-59 into controller 
+2023-10-01 14:47:34,070 WARN o.a.j.p.h.p.Proxy: [56642]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,149 WARN o.a.j.p.h.p.Proxy: [56651]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,221 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-60 into controller 
+2023-10-01 14:47:34,221 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-61 into controller 
+2023-10-01 14:47:34,221 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-62 into controller 
+2023-10-01 14:47:34,237 WARN o.a.j.p.h.p.Proxy: [56654]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,332 WARN o.a.j.p.h.p.Proxy: [56659]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,427 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-63 into controller 
+2023-10-01 14:47:34,432 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-64 into controller 
+2023-10-01 14:47:34,435 WARN o.a.j.p.h.p.Proxy: [56666]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,440 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-65 into controller 
+2023-10-01 14:47:34,444 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-66 into controller 
+2023-10-01 14:47:34,448 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-68 into controller 
+2023-10-01 14:47:34,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-67 into controller 
+2023-10-01 14:47:34,537 WARN o.a.j.p.h.p.Proxy: [56673]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,634 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-69 into controller 
+2023-10-01 14:47:34,634 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-70 into controller 
+2023-10-01 14:47:34,634 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-71 into controller 
+2023-10-01 14:47:34,650 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-72 into controller 
+2023-10-01 14:47:34,650 WARN o.a.j.p.h.p.Proxy: [56680]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,666 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-73 into controller 
+2023-10-01 14:47:34,666 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-74 into controller 
+2023-10-01 14:47:34,805 WARN o.a.j.p.h.p.Proxy: [56687]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:34,843 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-75 into controller 
+2023-10-01 14:47:34,843 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-76 into controller 
+2023-10-01 14:47:34,843 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-77 into controller 
+2023-10-01 14:47:34,865 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-78 into controller 
+2023-10-01 14:47:34,971 WARN o.a.j.p.h.p.Proxy: [56694]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,054 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-80 into controller 
+2023-10-01 14:47:35,060 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-79 into controller 
+2023-10-01 14:47:35,060 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-81 into controller 
+2023-10-01 14:47:35,070 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-83 into controller 
+2023-10-01 14:47:35,070 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-82 into controller 
+2023-10-01 14:47:35,117 WARN o.a.j.p.h.p.Proxy: [56701]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,222 WARN o.a.j.p.h.p.Proxy: [56708]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,265 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-84 into controller 
+2023-10-01 14:47:35,265 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-85 into controller 
+2023-10-01 14:47:35,265 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-86 into controller 
+2023-10-01 14:47:35,265 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-87 into controller 
+2023-10-01 14:47:35,328 WARN o.a.j.p.h.p.Proxy: [56715]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,416 WARN o.a.j.p.h.p.Proxy: [56722]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,478 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-88 into controller 
+2023-10-01 14:47:35,478 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-89 into controller 
+2023-10-01 14:47:35,485 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-90 into controller 
+2023-10-01 14:47:35,485 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-91 into controller 
+2023-10-01 14:47:35,494 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-92 into controller 
+2023-10-01 14:47:35,494 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-93 into controller 
+2023-10-01 14:47:35,494 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-94 into controller 
+2023-10-01 14:47:35,494 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-95 into controller 
+2023-10-01 14:47:35,510 WARN o.a.j.p.h.p.Proxy: [56729]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,603 WARN o.a.j.p.h.p.Proxy: [56736]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,688 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-96 into controller 
+2023-10-01 14:47:35,691 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-98 into controller 
+2023-10-01 14:47:35,694 WARN o.a.j.p.h.p.Proxy: [56743]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,695 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-97 into controller 
+2023-10-01 14:47:35,701 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-99 into controller 
+2023-10-01 14:47:35,705 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-100 into controller 
+2023-10-01 14:47:35,713 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-101 into controller 
+2023-10-01 14:47:35,830 WARN o.a.j.p.h.p.Proxy: [56751]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:35,894 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-102 into controller 
+2023-10-01 14:47:35,898 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-103 into controller 
+2023-10-01 14:47:35,900 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-104 into controller 
+2023-10-01 14:47:35,910 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-105 into controller 
+2023-10-01 14:47:35,941 WARN o.a.j.p.h.p.Proxy: [56758]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,051 WARN o.a.j.p.h.p.Proxy: [56765]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,099 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-106 into controller 
+2023-10-01 14:47:36,099 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-107 into controller 
+2023-10-01 14:47:36,114 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-108 into controller 
+2023-10-01 14:47:36,114 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-109 into controller 
+2023-10-01 14:47:36,114 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-110 into controller 
+2023-10-01 14:47:36,130 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-111 into controller 
+2023-10-01 14:47:36,176 WARN o.a.j.p.h.p.Proxy: [56772]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,277 WARN o.a.j.p.h.p.Proxy: [56779]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,308 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-113 into controller 
+2023-10-01 14:47:36,308 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-112 into controller 
+2023-10-01 14:47:36,324 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-114 into controller 
+2023-10-01 14:47:36,328 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-115 into controller 
+2023-10-01 14:47:36,334 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-116 into controller 
+2023-10-01 14:47:36,342 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-117 into controller 
+2023-10-01 14:47:36,386 WARN o.a.j.p.h.p.Proxy: [56786]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,485 WARN o.a.j.p.h.p.Proxy: [56793]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,517 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-118 into controller 
+2023-10-01 14:47:36,517 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-119 into controller 
+2023-10-01 14:47:36,517 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-120 into controller 
+2023-10-01 14:47:36,517 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-121 into controller 
+2023-10-01 14:47:36,517 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-122 into controller 
+2023-10-01 14:47:36,532 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-123 into controller 
+2023-10-01 14:47:36,586 WARN o.a.j.p.h.p.Proxy: [56800]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,689 WARN o.a.j.p.h.p.Proxy: [56807]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,721 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-125 into controller 
+2023-10-01 14:47:36,721 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-124 into controller 
+2023-10-01 14:47:36,721 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-126 into controller 
+2023-10-01 14:47:36,738 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-127 into controller 
+2023-10-01 14:47:36,738 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-128 into controller 
+2023-10-01 14:47:36,748 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-129 into controller 
+2023-10-01 14:47:36,796 WARN o.a.j.p.h.p.Proxy: [56814]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,907 WARN o.a.j.p.h.p.Proxy: [56821]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:36,922 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-130 into controller 
+2023-10-01 14:47:36,922 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-131 into controller 
+2023-10-01 14:47:36,922 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-132 into controller 
+2023-10-01 14:47:36,936 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-133 into controller 
+2023-10-01 14:47:36,941 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-134 into controller 
+2023-10-01 14:47:37,011 WARN o.a.j.p.h.p.Proxy: [56829]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:37,090 WARN o.a.j.p.h.p.Proxy: [56835]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:37,137 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-135 into controller 
+2023-10-01 14:47:37,141 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-136 into controller 
+2023-10-01 14:47:37,143 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-137 into controller 
+2023-10-01 14:47:37,148 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-138 into controller 
+2023-10-01 14:47:37,152 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-139 into controller 
+2023-10-01 14:47:37,155 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-140 into controller 
+2023-10-01 14:47:37,160 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-141 into controller 
+2023-10-01 14:47:37,162 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-143 into controller 
+2023-10-01 14:47:37,166 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-142 into controller 
+2023-10-01 14:47:37,168 INFO o.a.j.p.h.p.ProxyControl: [56559]  Creating entry www.blazedemo.com in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:37,170 INFO o.a.j.p.h.p.Proxy: [56508]  KeyStore for SSL loaded OK and put host 'img-getpocket.cdn.mozilla.net' in map with key (img-getpocket.cdn.mozilla.net)
+2023-10-01 14:47:37,552 WARN o.a.j.p.h.p.Proxy: [56508]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:37,552 WARN o.a.j.p.h.p.Proxy: [56504]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:37,552 WARN o.a.j.p.h.p.Proxy: [56503]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:37,552 WARN o.a.j.p.h.p.Proxy: [56505]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:37,564 WARN o.a.j.p.h.p.Proxy: [56507]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:37,756 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-144 into controller 
+2023-10-01 14:47:37,757 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-145 into controller 
+2023-10-01 14:47:37,757 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-146 into controller 
+2023-10-01 14:47:37,929 WARN o.a.j.p.h.p.Proxy: [56506]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:38,023 WARN o.a.j.p.h.p.Proxy: [56850]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:38,023 WARN o.a.j.p.h.p.Proxy: [56851]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:38,071 WARN o.a.j.p.h.p.Proxy: [56852]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:38,087 WARN o.a.j.p.h.p.Proxy: [56853]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:38,162 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-147 into controller 
+2023-10-01 14:47:38,167 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-149 into controller 
+2023-10-01 14:47:38,171 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-148 into controller 
+2023-10-01 14:47:38,178 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-150 into controller 
+2023-10-01 14:47:38,184 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-151 into controller 
+2023-10-01 14:47:38,187 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-152 into controller 
+2023-10-01 14:47:38,214 WARN o.a.j.p.h.p.Proxy: [56854]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:38,246 WARN o.a.j.p.h.p.Proxy: [56860]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:38,370 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-153 into controller 
+2023-10-01 14:47:38,370 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-154 into controller 
+2023-10-01 14:47:38,370 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-156 into controller 
+2023-10-01 14:47:38,370 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-155 into controller 
+2023-10-01 14:47:38,370 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-157 into controller 
+2023-10-01 14:47:38,388 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-158 into controller 
+2023-10-01 14:47:40,609 INFO o.a.j.p.h.p.Proxy: [56559]  KeyStore for SSL loaded OK and put host 'www.blazedemo.com' in map with key (www.blazedemo.com)
+2023-10-01 14:47:40,719 WARN o.a.j.p.h.p.Proxy: [56559]  Problem with SSL certificate for url  for 'www.blazedemo.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:40,728 INFO o.a.j.p.h.p.ProxyControl: [56884]  Creating entry incoming.telemetry.mozilla.org in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:40,827 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-159 into controller 
+2023-10-01 14:47:40,831 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-160 into controller 
+2023-10-01 14:47:40,833 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-161 into controller 
+2023-10-01 14:47:41,062 WARN o.a.j.p.h.p.Proxy: [56893]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:41,067 WARN o.a.j.p.h.p.Proxy: [56894]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:41,081 WARN o.a.j.p.h.p.Proxy: [56895]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:41,228 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-162 into controller 
+2023-10-01 14:47:41,231 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-163 into controller 
+2023-10-01 14:47:41,235 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-164 into controller 
+2023-10-01 14:47:41,318 WARN o.a.j.p.h.p.Proxy: [56898]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:41,334 WARN o.a.j.p.h.p.Proxy: [56899]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:41,356 WARN o.a.j.p.h.p.Proxy: [56900]  Problem with SSL certificate for url  for 'img-getpocket.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:41,438 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-165 into controller 
+2023-10-01 14:47:41,643 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-166 into controller 
+2023-10-01 14:47:41,649 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-167 into controller 
+2023-10-01 14:47:43,898 INFO o.a.j.p.h.p.Proxy: [56884]  KeyStore for SSL loaded OK and put host 'incoming.telemetry.mozilla.org' in map with key (incoming.telemetry.mozilla.org)
+2023-10-01 14:47:44,043 WARN o.a.j.p.h.p.Proxy: [56884]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:44,043 WARN o.a.j.p.h.p.Proxy: [56892]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:44,043 WARN o.a.j.p.h.p.Proxy: [56885]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:44,101 WARN o.a.j.p.h.p.Proxy: [56912]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:44,127 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-168 into controller 
+2023-10-01 14:47:44,127 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-170 into controller 
+2023-10-01 14:47:44,132 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-169 into controller 
+2023-10-01 14:47:44,134 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-171 into controller 
+2023-10-01 14:47:44,172 WARN o.a.j.p.h.p.Proxy: [56919]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:44,338 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-172 into controller 
+2023-10-01 14:47:44,338 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-173 into controller 
+2023-10-01 14:47:44,338 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-174 into controller 
+2023-10-01 14:47:44,338 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-176 into controller 
+2023-10-01 14:47:44,345 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-175 into controller 
+2023-10-01 14:47:44,570 WARN o.a.j.p.h.p.Proxy: [56931]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:44,759 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-177 into controller 
+2023-10-01 14:47:44,759 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-179 into controller 
+2023-10-01 14:47:44,759 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-178 into controller 
+2023-10-01 14:47:51,042 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-10-01 14:47:51,042 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-10-01 14:47:51,042 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-10-01 14:47:51,062 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-10-01 14:47:51,062 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-10-01 14:47:51,062 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-10-01 14:47:51,943 INFO o.a.j.p.h.p.ProxyControl: Add sample /-180 into controller 
+2023-10-01 14:47:53,076 INFO o.a.j.p.h.p.ProxyControl: [56949]  Creating entry blazemeter.trackinglibrary.prodperfect.com in C:\Users\nitin\OneDrive\Desktop\Softwares\JMeter\jMeter_Repo\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2023-10-01 14:47:55,747 INFO o.a.j.p.h.p.Proxy: [56949]  KeyStore for SSL loaded OK and put host 'blazemeter.trackinglibrary.prodperfect.com' in map with key (blazemeter.trackinglibrary.prodperfect.com)
+2023-10-01 14:47:55,811 WARN o.a.j.p.h.p.Proxy: [56949]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:47:56,043 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-185 into controller 
+2023-10-01 14:47:56,043 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-187 into controller 
+2023-10-01 14:47:56,043 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-186 into controller 
+2023-10-01 14:48:06,078 WARN o.a.j.p.h.p.Proxy: [56972]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:06,164 INFO o.a.j.p.h.p.ProxyControl: Add sample /reserve.php-188 into controller 
+2023-10-01 14:48:06,165 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-189 into controller 
+2023-10-01 14:48:06,165 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-191 into controller 
+2023-10-01 14:48:06,165 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-190 into controller 
+2023-10-01 14:48:13,636 WARN o.a.j.p.h.p.Proxy: [56983]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:13,774 INFO o.a.j.p.h.p.ProxyControl: Add sample /purchase.php-192 into controller 
+2023-10-01 14:48:13,774 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-193 into controller 
+2023-10-01 14:48:13,774 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-194 into controller 
+2023-10-01 14:48:13,790 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-195 into controller 
+2023-10-01 14:48:38,751 WARN o.a.j.p.h.p.Proxy: [56993]  Problem with SSL certificate for url  for 'normandy.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:38,830 WARN o.a.j.p.h.p.Proxy: [56995]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:38,912 WARN o.a.j.p.h.p.Proxy: [56999]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:38,981 WARN o.a.j.p.h.p.Proxy: [57008]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,044 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-196 into controller 
+2023-10-01 14:48:39,047 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-199 into controller 
+2023-10-01 14:48:39,047 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-198 into controller 
+2023-10-01 14:48:39,047 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-197 into controller 
+2023-10-01 14:48:39,051 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-200 into controller 
+2023-10-01 14:48:39,052 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-201 into controller 
+2023-10-01 14:48:39,052 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-202 into controller 
+2023-10-01 14:48:39,052 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-205 into controller 
+2023-10-01 14:48:39,052 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-204 into controller 
+2023-10-01 14:48:39,057 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-203 into controller 
+2023-10-01 14:48:39,061 WARN o.a.j.p.h.p.Proxy: [57013]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,157 WARN o.a.j.p.h.p.Proxy: [57022]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,252 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-206 into controller 
+2023-10-01 14:48:39,253 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-207 into controller 
+2023-10-01 14:48:39,253 WARN o.a.j.p.h.p.Proxy: [57029]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,255 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-208 into controller 
+2023-10-01 14:48:39,256 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-209 into controller 
+2023-10-01 14:48:39,256 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-210 into controller 
+2023-10-01 14:48:39,315 WARN o.a.j.p.h.p.Proxy: [57032]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,399 WARN o.a.j.p.h.p.Proxy: [57037]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-211 into controller 
+2023-10-01 14:48:39,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-212 into controller 
+2023-10-01 14:48:39,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-213 into controller 
+2023-10-01 14:48:39,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-214 into controller 
+2023-10-01 14:48:39,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-215 into controller 
+2023-10-01 14:48:39,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-216 into controller 
+2023-10-01 14:48:39,458 WARN o.a.j.p.h.p.Proxy: [57044]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,532 WARN o.a.j.p.h.p.Proxy: [57047]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,598 WARN o.a.j.p.h.p.Proxy: [57052]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,662 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-217 into controller 
+2023-10-01 14:48:39,662 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-219 into controller 
+2023-10-01 14:48:39,665 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-218 into controller 
+2023-10-01 14:48:39,665 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-220 into controller 
+2023-10-01 14:48:39,665 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-222 into controller 
+2023-10-01 14:48:39,665 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-223 into controller 
+2023-10-01 14:48:39,665 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-221 into controller 
+2023-10-01 14:48:39,687 WARN o.a.j.p.h.p.Proxy: [57059]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,799 WARN o.a.j.p.h.p.Proxy: [57066]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,877 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-225 into controller 
+2023-10-01 14:48:39,879 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-224 into controller 
+2023-10-01 14:48:39,880 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-226 into controller 
+2023-10-01 14:48:39,881 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-227 into controller 
+2023-10-01 14:48:39,881 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-228 into controller 
+2023-10-01 14:48:39,883 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-229 into controller 
+2023-10-01 14:48:39,883 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-230 into controller 
+2023-10-01 14:48:39,883 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-231 into controller 
+2023-10-01 14:48:39,886 WARN o.a.j.p.h.p.Proxy: [57073]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:39,950 WARN o.a.j.p.h.p.Proxy: [57080]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,029 WARN o.a.j.p.h.p.Proxy: [57087]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,090 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-232 into controller 
+2023-10-01 14:48:40,090 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-233 into controller 
+2023-10-01 14:48:40,090 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-234 into controller 
+2023-10-01 14:48:40,090 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-235 into controller 
+2023-10-01 14:48:40,093 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-236 into controller 
+2023-10-01 14:48:40,095 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-237 into controller 
+2023-10-01 14:48:40,095 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-238 into controller 
+2023-10-01 14:48:40,107 WARN o.a.j.p.h.p.Proxy: [57094]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,181 WARN o.a.j.p.h.p.Proxy: [57101]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,248 WARN o.a.j.p.h.p.Proxy: [57104]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,296 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-240 into controller 
+2023-10-01 14:48:40,296 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-239 into controller 
+2023-10-01 14:48:40,296 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-241 into controller 
+2023-10-01 14:48:40,296 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-242 into controller 
+2023-10-01 14:48:40,296 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-243 into controller 
+2023-10-01 14:48:40,328 WARN o.a.j.p.h.p.Proxy: [57109]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,396 WARN o.a.j.p.h.p.Proxy: [57116]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,471 WARN o.a.j.p.h.p.Proxy: [57123]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,502 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-244 into controller 
+2023-10-01 14:48:40,502 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-246 into controller 
+2023-10-01 14:48:40,502 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-245 into controller 
+2023-10-01 14:48:40,502 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-247 into controller 
+2023-10-01 14:48:40,502 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-248 into controller 
+2023-10-01 14:48:40,507 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-249 into controller 
+2023-10-01 14:48:40,509 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-250 into controller 
+2023-10-01 14:48:40,510 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-251 into controller 
+2023-10-01 14:48:40,510 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-252 into controller 
+2023-10-01 14:48:40,549 WARN o.a.j.p.h.p.Proxy: [57130]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,653 WARN o.a.j.p.h.p.Proxy: [57137]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,716 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-253 into controller 
+2023-10-01 14:48:40,716 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-254 into controller 
+2023-10-01 14:48:40,716 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-255 into controller 
+2023-10-01 14:48:40,719 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-256 into controller 
+2023-10-01 14:48:40,720 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-258 into controller 
+2023-10-01 14:48:40,720 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-257 into controller 
+2023-10-01 14:48:40,720 WARN o.a.j.p.h.p.Proxy: [57144]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,826 WARN o.a.j.p.h.p.Proxy: [57147]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:40,916 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-259 into controller 
+2023-10-01 14:48:40,916 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-261 into controller 
+2023-10-01 14:48:40,916 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-260 into controller 
+2023-10-01 14:48:40,920 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-262 into controller 
+2023-10-01 14:48:40,921 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-263 into controller 
+2023-10-01 14:48:40,922 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-264 into controller 
+2023-10-01 14:48:40,922 WARN o.a.j.p.h.p.Proxy: [57152]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,011 WARN o.a.j.p.h.p.Proxy: [57159]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,097 WARN o.a.j.p.h.p.Proxy: [57162]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,122 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-265 into controller 
+2023-10-01 14:48:41,122 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-266 into controller 
+2023-10-01 14:48:41,122 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-267 into controller 
+2023-10-01 14:48:41,192 WARN o.a.j.p.h.p.Proxy: [57167]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,271 WARN o.a.j.p.h.p.Proxy: [57174]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,326 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-268 into controller 
+2023-10-01 14:48:41,327 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-270 into controller 
+2023-10-01 14:48:41,327 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-269 into controller 
+2023-10-01 14:48:41,327 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-271 into controller 
+2023-10-01 14:48:41,327 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-273 into controller 
+2023-10-01 14:48:41,331 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-272 into controller 
+2023-10-01 14:48:41,331 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-274 into controller 
+2023-10-01 14:48:41,342 WARN o.a.j.p.h.p.Proxy: [57181]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,416 WARN o.a.j.p.h.p.Proxy: [57188]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,482 WARN o.a.j.p.h.p.Proxy: [57195]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,539 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-276 into controller 
+2023-10-01 14:48:41,539 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-275 into controller 
+2023-10-01 14:48:41,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-277 into controller 
+2023-10-01 14:48:41,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-278 into controller 
+2023-10-01 14:48:41,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-279 into controller 
+2023-10-01 14:48:41,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-280 into controller 
+2023-10-01 14:48:41,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-282 into controller 
+2023-10-01 14:48:41,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-281 into controller 
+2023-10-01 14:48:41,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-283 into controller 
+2023-10-01 14:48:41,586 WARN o.a.j.p.h.p.Proxy: [57202]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,696 WARN o.a.j.p.h.p.Proxy: [57209]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,744 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-284 into controller 
+2023-10-01 14:48:41,744 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-285 into controller 
+2023-10-01 14:48:41,744 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-286 into controller 
+2023-10-01 14:48:41,746 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-288 into controller 
+2023-10-01 14:48:41,747 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-287 into controller 
+2023-10-01 14:48:41,747 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-289 into controller 
+2023-10-01 14:48:41,791 WARN o.a.j.p.h.p.Proxy: [57216]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,867 WARN o.a.j.p.h.p.Proxy: [57223]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,951 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-290 into controller 
+2023-10-01 14:48:41,952 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-291 into controller 
+2023-10-01 14:48:41,952 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-292 into controller 
+2023-10-01 14:48:41,953 WARN o.a.j.p.h.p.Proxy: [57230]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:41,953 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-293 into controller 
+2023-10-01 14:48:41,954 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-294 into controller 
+2023-10-01 14:48:41,955 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-295 into controller 
+2023-10-01 14:48:42,012 WARN o.a.j.p.h.p.Proxy: [57239]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:42,083 WARN o.a.j.p.h.p.Proxy: [57244]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-297 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-296 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-298 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-299 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-300 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-301 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-303 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-302 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-304 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-306 into controller 
+2023-10-01 14:48:42,154 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-305 into controller 
+2023-10-01 14:48:57,107 WARN o.a.j.p.h.p.Proxy: [57257]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:48:57,555 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-307 into controller 
+2023-10-01 14:48:57,555 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-309 into controller 
+2023-10-01 14:48:57,555 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-308 into controller 
+2023-10-01 14:49:51,338 WARN o.a.j.p.h.p.Proxy: [57269]  Problem with SSL certificate for url  for 'blazemeter.trackinglibrary.prodperfect.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2023-10-01 14:49:51,402 INFO o.a.j.p.h.p.ProxyControl: Add sample /confirmation.php-312 into controller 
+2023-10-01 14:49:51,402 INFO o.a.j.p.h.p.ProxyControl: Add sample /canonical.html-313 into controller 
+2023-10-01 14:49:51,406 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-314 into controller 
+2023-10-01 14:49:51,607 INFO o.a.j.p.h.p.ProxyControl: Add sample /success.txt-315 into controller 
+2023-10-01 14:50:26,842 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
