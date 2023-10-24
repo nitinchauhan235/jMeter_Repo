@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1698069408390,859,https://blazedemo.com/reserve.php,200,OK,Thread Group 1-1,text,true,,7381,709,1,1,https://blazedemo.com/reserve.php,844,0,374
+1698069409266,664,https://blazedemo.com/reserve.php,200,OK,Thread Group 1-1,text,true,,7381,958,1,1,https://blazedemo.com/reserve.php,648,0,0
+1698069408349,1523,FindFlights,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,14762,1667,1,1,null,1492,56,374
+1698069418644,847,https://blazedemo.com/purchase.php,200,OK,Thread Group 1-1,text,true,,6715,753,1,1,https://blazedemo.com/purchase.php,831,0,0
+1698069419508,1353,https://blazedemo.com/purchase.php,200,OK,Thread Group 1-1,text,true,,6715,1002,1,1,https://blazedemo.com/purchase.php,1344,0,0
+1698069409931,2200,ChooseFlight,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,13430,1755,1,1,null,2175,8733,0
+1698069452977,406,https://blazedemo.com/confirmation.php,200,OK,Thread Group 1-1,text,true,,5780,857,1,1,https://blazedemo.com/confirmation.php,402,0,0
+1698069453392,413,https://blazedemo.com/confirmation.php,200,OK,Thread Group 1-1,text,true,,5780,1103,1,1,https://blazedemo.com/confirmation.php,408,0,0
+1698069420865,819,PassenderDetails,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,11560,1960,1,1,null,810,32123,0
+1698069464523,490,https://blazedemo.com/index.php,200,OK,Thread Group 1-1,text,true,,4757,603,1,1,https://blazedemo.com/index.php,480,0,0
+1698069465034,572,https://blazedemo.com/index.php,200,OK,Thread Group 1-1,text,true,,4757,852,1,1,https://blazedemo.com/index.php,566,0,0
+1698069453806,1062,SignOut,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,9514,1455,1,1,null,1046,10740,0
